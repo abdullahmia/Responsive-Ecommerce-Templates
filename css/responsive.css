@@ -21,7 +21,33 @@
         font-weight: 600;
     }
 
+    .bottom_fotter {
+        padding: 15px 0px;
+        margin-top: 1185px !important;
+        margin-bottom: 51px;
+        border-top: 1px solid aliceblue;
+    }
+
     
+
+
+    /* ==============================  Single Product Page  ====================================== */
+    .product_details {
+        padding-top: 39px;
+    }
+
+    .review_box h2 {
+        font-size: 20px;
+        color: #333333;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .review_box p {
+        font-family: 'Lat', sans-serif;
+        font-weight: 400;
+        color: #333333;
+        font-size: 13px;
+    }
 
  }
 
@@ -77,7 +103,7 @@
         margin-bottom: 18px;
     }
     .bootom_separate {
-        margin-top: 600px;
+        margin-top: 581px !important;
     }
 
     .bottom_fotter {
@@ -90,13 +116,7 @@
     
  }
 
-/* 
- @media(min-width: 768px){
-    .product img {
-        width: 161px;
-        height: 147px;
-    }
-} */
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
@@ -107,6 +127,9 @@
     .bottom_fotter {
         padding: 15px 0px;
         margin-bottom: 76px;
+    }
+    .bootom_separate {
+        margin-top: -581px !important;
     }
  }
 

@@ -337,3 +337,170 @@
 }
 
 .appbar_home {}
+
+
+
+/* ===============================================  SINGLE PRODUCT PAGE   ========================================================== */
+.header {
+	background: white;
+	border-bottom: 1px solid #eed9d9;
+}
+.header_nav li a{
+	color: #333333 !important;
+}
+
+
+
+/* #### product Sections #### */
+.product_sections {
+	background: #F9F9F9;
+	padding-top: 48px;
+	padding-bottom: 11px;
+}
+
+.product_image img {
+	width: 463px;
+	height: 401px;
+}
+
+.product_details h6 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+}
+.product_details h2 {
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	font-weight: 400;
+}
+.product_details h3 {
+	font-size: 23px;
+	font-weight: 700;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+}
+.product_details p{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+}
+
+.cart_form {
+	width: 48px;
+	padding: 9px 0px;
+	padding-left: 10px;
+	border: 1px solid #f0e7e7;
+}
+
+.add_to_cart_btn {
+	padding: 10px 30px;
+	font-weight: 700;
+	border: none;
+	font-family: 'Lato', sans-serif;
+}
+
+.add_to_cart_btn:hover{
+	background: black;
+	color: white;
+}
+
+.product_details h4 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+}
+
+.descriptions_section {
+	padding: 16px 0px;
+	margin: 33px auto;
+	border-top: 1px solid #e8e4e4;
+}
+
+.pill_item a{
+	background: transparent !important;
+	color: black !important;
+	border: none !important;
+}
+
+.pill_item a:hover{
+	color: white  !important;
+	background: rgb(105, 92, 224) !important;
+}
+
+.main_description {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.additional_info_table {
+	border: 1px solid #ccc;
+}
+
+
+.review_section h2 {
+	font-size: 24px;
+	color: #333333;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+.review_section p{
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+.review_box {
+	padding: 41px;
+	border: 1px solid #eae4e4;
+}
+
+.review_box h2{
+	font-size: 24px;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.review_box p{
+	font-family: 'Lat', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	font-size: 14px;
+}
+
+
+.review_stars {
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.review_form {
+	margin-top: 15px;
+}
+
+.review_form button {
+	background: #dfd1d1;
+	border: none;
+	border-radius: 0px;
+	padding: 12px 30px;
+	font-weight: 600;
+	font-family: 'Lat', sans-serif;
+}
+
+.review_form button:hover{
+	background: black;
+	color: white;
+}
+
+.related_products h2{
+	font-size: 29px;
+}
