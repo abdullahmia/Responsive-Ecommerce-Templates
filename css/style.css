@@ -1,0 +1,339 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+#hero {
+	width: 100% !important;
+    background: url('../img/hero_bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+    height: 636px;
+
+
+}
+
+
+.products_secction a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.nav-item a {
+	color: #d5d0d0;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 601;
+	transition: 0.4s;
+}
+
+.navbar_active {
+	color: white;
+}
+
+.nav-item a:hover{
+	color: white;
+}
+
+
+#hero .navbar {
+	background: #105da291;
+	height: 100px;
+	width: 100%;
+}
+
+.cart_nav_button{
+	color: black;
+	font-weight: bold;
+	background: white;
+	transition: 0.6s;
+}
+
+.cart_nav_button:hover{
+	color: white;
+	background: #365685;
+}
+
+.hero{
+	margin-top: 130px;
+}
+
+.hero h2 {
+	font-size: 59px;
+    font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.hero h4 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero_btn_1 {
+	background: white;
+	border-radius: 0;
+	padding: 12px 26px;
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	transition: 0.7s;
+}
+
+.hero_btn_1:hover{
+	background: black;
+	color: white;
+}
+
+.hero_btn_2 {
+	color: white;
+	border-radius: 0;
+	padding: 12px 26px;
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	border: 1px solid white;
+	transition: 0.7s;
+}
+
+.hero_btn_2:hover{
+	background: black;
+	color: white;
+	border: none;
+}
+
+
+
+/* ############################ CAtegory Sections     ##################################### */
+.category {
+	margin-top: 40px;
+	margin-bottom: 85px;
+}
+
+.category_item {
+	background-position: center !important;
+	background-size: cover !important;
+	padding: 31px;
+	height: 400px;
+	width: 100%;
+}
+
+.category_item h2 {
+	padding-top: 80px;
+	color: white;
+	font-size: 48px;
+	font-family: 'Lato', sans-serif;
+}
+.category_item p{
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* ############  Featured Product Section  ###################### */
+
+.featured_product {
+	background: #F4F4F4;
+	padding-bottom: 39px;
+}
+.freature_title {}
+
+.freature_title h2{
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-size: 43px;
+	color: #333333;
+	font-weight: 600;
+}
+
+
+
+.product {
+	margin-bottom: 43px;
+}
+
+
+.product img {
+	width: 265px;
+	height: 265px;
+}
+.product h2 {
+	color: #333;
+	font-size: 15px;
+	padding-top: 22px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}	
+.product h4 {
+	font-size: 13px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.product h6{
+	color: #333333;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+
+.ratings {
+	margin-top: -6px;
+}
+.ratings i{
+	font-size: 13px;
+	color: #4e4e4e;
+}
+
+.product a {
+	color: white;
+	margin-top: 12px;
+	border-radius: 0px;
+	font-weight: 600;
+}
+.product a:hover{
+	background: white;
+	color: black;
+}
+
+.product a i{
+	margin-right: 10px;
+}
+
+/* ###########33   info SEctions  #########*/
+
+
+.info_section {
+	background: url('../img/category/item2.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	/* margin-bottom: 20px; */
+}
+.info_box{
+
+}
+
+.info_box h5 {
+	padding-top: 100px;
+	font-size: 26px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+.info_box h2{
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+}
+.info_box p{
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+.info_box h4{
+	margin-top: 39px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.info_box a{
+	margin-top: 20px;
+}
+
+
+
+/* #########   Services Sections  ######## */
+.services {
+	background: #F4F4F4;
+	padding: 90px 0px;
+}
+
+.service_item{}
+.service_item img {
+	width: 54px;
+}
+.service_item h2 {
+	padding-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #333333;
+}
+.service_item p {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	line-height: 26px;
+}
+
+
+/* #########  Footer  ############ */
+.top_footer {
+	backgournd: white;
+	height: 267px;
+	padding: 48px 0px;
+}
+
+.top_footer_item {}
+.top_footer_item h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	color: #333333;
+}
+.top_footer_item ul{
+	list-style: none;
+}
+.top_footer_item li {
+	padding: 4px 0px;
+}
+.top_footer_item li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.footer_apps {
+	padding: 50px 40px;
+}
+.footer_apps img {
+	width: 181px;
+	display: inherit;
+	margin-bottom: 18px;
+}
+
+.bottom_fotter {
+	padding: 15px 0px;
+}
+
+.bottom_fotter h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: black;
+}
+
+
+
+
+
+/* ####### mobile appbar  ######## */
+.app_bar {
+	height: 58px;
+	background: white;
+	padding: 11px 0px;
+	border-top: 2px solid black;
+	display: none;
+}
+
+.app_bar a {
+	color: black;
+}
+
+.appbar_home {}

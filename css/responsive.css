@@ -1,0 +1,118 @@
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .category_item {
+        background-position: center !important;
+        background-size: cover !important;
+        padding: 31px;
+        height: 325px;
+        width: 100%;
+        margin-bottom: 17px;
+    }
+
+    .freature_title h2 {
+        padding-top: 69px;
+        padding-bottom: 40px;
+        font-size: 27px;
+        color: #333333;
+        font-weight: 600;
+    }
+
+    
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+
+
+@media (max-width: 768px) { 
+	.hero h2 {
+		font-size: 39px;
+		font-family: 'Lato', sans-serif;
+		color: white;
+	}
+    .hero h4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 21px;
+        font-weight: 600;
+        color: white;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .category_item {
+        background-position: center !important;
+        background-size: cover !important;
+        padding: 31px;
+        height: 325px;
+        width: 100%;
+    }
+
+    .category_item h2 {
+        padding-top: 42px;
+        color: white;
+        font-size: 27px;
+        font-family: 'Lato', sans-serif;
+    }
+
+/* Product sections */
+    /* .product img {
+        width: 209px;
+        height: 203px;
+    } */
+    .product img {
+        width: 161px;
+        height: 147px;
+    }
+    
+/* Footer section */
+    .footer_apps img {
+        width: 133px;
+        display: inherit;
+        margin-bottom: 18px;
+    }
+    .bootom_separate {
+        margin-top: 600px;
+    }
+
+    .bottom_fotter {
+        padding: 15px 0px;
+        margin-top: 584px;
+        margin-bottom: 51px;
+        border-top: 1px solid aliceblue;
+    }
+
+    
+ }
+
+/* 
+ @media(min-width: 768px){
+    .product img {
+        width: 161px;
+        height: 147px;
+    }
+} */
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+	.bootom_separate {
+        margin-top: 0px;
+    }
+
+    .bottom_fotter {
+        padding: 15px 0px;
+        margin-bottom: 76px;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+	.app_bar {
+        display: block;
+    }
+ }
