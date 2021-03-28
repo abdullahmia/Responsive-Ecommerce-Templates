@@ -515,10 +515,10 @@
 /* =============================================================================== */
 .contact_title {
 	height: 300px;
-	background: url('../img/contact-bg.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	/* background: url('../img/contact-bg.jpg'); */
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
 	display: flex;
 	align-items: center;
 }
@@ -607,4 +607,105 @@
 .contact_form button:hover{
 	background: black;
 	color: white;
+}
+
+
+
+
+
+/* ===================   About   ============================ */
+.about_text {
+	background: white;
+	padding: 81px 0px;
+}
+
+.about_left_box {
+	background: #EDEDEF;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.text_about {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.about_text_box h2{
+	font-family: 'Lat', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	color: #333333;
+}
+.about_text_box p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333;
+}
+
+
+.about_image_box img{
+	height: 400px;
+}
+
+.devider {
+	border-top: 4px solid #3197D6;
+	width: 25%;
+	margin-bottom: 48px;
+}
+
+
+.team {
+	background: #F9F9F9;
+	padding: 96px 0px;
+}
+
+.team_text h4{
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color:#333333;
+}
+
+.team_text h2{
+	font-size: 42px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #333333
+}
+
+.team_text p {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	padding: 0px 208px;
+}
+
+
+.team_item img {
+	width: 100px;
+}
+.team_item h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+}
+.team_text p {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	padding: 0px 208px;
+	padding-bottom: 66px;
+}
+
+.team_item {
+	background: white;
+	padding: 49px 0px;
+	margin: 10px 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 11px 5px rgba(140, 140, 140, 0.29);
 }
