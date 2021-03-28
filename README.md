@@ -1,8 +1,5 @@
-## Live Demo:-
+## Live Demo:- https://darknoob1971.github.io/ecommerce/
 
-```
-https://darknoob1971.github.io/ecommerce/
-```
 
 ## Screenshots:-
 
