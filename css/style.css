@@ -756,3 +756,122 @@
 	padding: 10px 21px;
 	color: #333333;
 }
+
+
+
+
+/* ==============     Sore page    =============== */
+.sidebar {
+	height: 500px;
+	width: 100%;
+}
+
+
+.store_sections {
+	padding: 56px 0px;
+}
+
+.store_product img {
+	width: 183px;
+	height: 151px;
+}
+
+.store_product h4{
+	color: #333;
+}
+
+.store_bredcumps p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #333333;
+}
+
+.product_sortby p {
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	padding: 9px 0px;
+}
+
+.product_sortby {
+	padding: 16px 0px;
+}
+
+.sidebar_product_img img {
+	width: 66px;
+	height: 65px;
+}
+
+
+.sidebar_products {
+	display: flex;
+	padding: 7px 0px;
+	border-bottom: 1px solid #eae5e5;
+}
+
+.sidebar_products:last-child{
+	border-bottom: none;
+}
+
+.sidebar_product_title h3 {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+.sidebar_product_title h2 {
+	font-size: 15px !important;
+	font-weight: 700;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+}
+.sidebar_product_title {
+	padding: 0px 14px;
+}
+.sidebar_product_title h3{
+	font-size: 16px !important;
+
+}
+
+.sidebar_product_raiting {
+	margin-top: -10px;
+}
+.sidebar_product_raiting i {
+	font-size: 11px;
+}
+
+.best_seller_products {
+	padding: 17px 0px;
+}
+.sidear_best_seller h2{
+	font-size: 24px;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+
+.sidebar_search {
+	padding: 30px 0px;
+}
+
+.sidebar_search input[type="text"] {
+	background: white;
+	width: 60%;
+	outline: none;
+	border: 1px solid beige;
+	padding: 9px 14px;
+}
+
+.sidebar_search input[type="submit"] {
+	background: #f0efef;
+	padding: 10px 21px;
+	border: none;
+	transition: 0.4s;
+}
+
+.sidebar_search input[type="submit"]:hover{
+	background: black;
+	color: white;
+}
