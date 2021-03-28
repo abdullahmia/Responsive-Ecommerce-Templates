@@ -49,6 +49,20 @@
         font-size: 13px;
     }
 
+    /* ================   Contact Page    ====================== */
+        
+    .right_contact_form {
+        padding: 28px 19px;
+    }
+
+    .left_contact h4 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #333333;
+        font-family: 'Lato', sans-serif;
+        padding-top: 10px;
+    }
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -113,7 +127,39 @@
         border-top: 1px solid aliceblue;
     }
 
-    
+    /* =================  Contact page  ================= */
+    .left_contact h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #333333;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .left_contact p {
+        font-size: 13px;
+        color: #333333;
+        font-weight: 400;
+        padding-top: 2px;
+        font-family: 'Lato', sans-serif;
+        padding-right: 49px;
+    }
+
+    .left_contact h4 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #333333;
+        font-family: 'Lato', sans-serif;
+        padding-top: 40px;
+    }
+
+    .left_contact h3 {
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: #333333;
+    }
+
+
  }
 
 

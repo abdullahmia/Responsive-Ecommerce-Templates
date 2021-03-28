@@ -504,3 +504,107 @@
 .related_products h2{
 	font-size: 29px;
 }
+
+
+
+
+
+
+
+
+/* =============================================================================== */
+.contact_title {
+	height: 300px;
+	background: url('../img/contact-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.contact_title h2{
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+
+.contact_section {
+	background: #FFFFFF;
+	padding: 119px 0px;
+}
+
+.left_contact h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333333;
+	font-family: 'Lato',  sans-serif;
+}
+
+.left_contact p {
+	font-size: 15px;
+	color: #333333;
+	font-weight: 400;
+	padding-top: 20px;
+	font-family: 'Lato', sans-serif;
+	padding-right: 50px;
+}
+
+.left_contact h4 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	padding-top: 68px;
+}
+.left_contact h3{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #333333;
+}
+
+
+.right_contact_form {
+	padding-left: 32px;
+}
+
+.contact_form {}
+
+.contact_form input[type="text"], input[type="email"] {
+	background: #fffbfbd4;
+	padding: 25px 20px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #333333;
+	border: 1px solid #eaeaea;
+}
+
+
+.contact_form textarea {
+	background: #fffbfbd4;
+	font-size: 15px;
+	font-weight: 400;
+	color: #333333;
+	border: 1px solid #eaeaea;
+}
+
+
+.contact_form input:focus{
+	background: white;
+}
+
+.contact_form button {
+	background: #f4eaea;
+	padding: 10px 40px;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 0px;
+	border: none;
+	font-family: 'Lato', sans-serif;
+}
+
+.contact_form button:hover{
+	background: black;
+	color: white;
+}
