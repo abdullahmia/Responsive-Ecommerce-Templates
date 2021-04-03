@@ -52,6 +52,9 @@
                             <a class="nav-link navbar_active" href="cart.html">Cart</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link navbar_active" href="checkout.html">Checkout</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link navbar_active" href="login.html">Login</a>
                         </li>
                         <li class="nav-item">
@@ -90,6 +93,8 @@
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="cart_left_box">
                         <h2>Cart (2 items)</h2>
+
+
                         <div class="cart_itemss">
                             <div class="cart_product_img">
                                 <img src="img/product-accessory2-300x300.jpeg" alt="">
@@ -107,9 +112,9 @@
 
                             <div class="ml-auto cart_product_price">
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <a type="button" class="btn btn-secondary">-</a>
-                                    <a type="button" class="btn btn-secondary">1</a>
-                                    <a type="button" class="btn btn-secondary">+</a>
+                                    <a type="button" onClick="decrese_cart('cart_item_1')" class="btn btn-secondary">-</a>
+                                    <a type="button" id="cart_item_1" class="btn btn-secondary">0</a>
+                                    <a type="button" onClick="increse_cart('cart_item_1')" class="btn btn-secondary">+</a>
                                 </div>
                                 <br>
                                 <br>
@@ -120,6 +125,7 @@
                             </div>
 
                         </div>
+
 
                         <div class="cart_itemss">
                             <div class="cart_product_img">
@@ -138,40 +144,9 @@
                         
                             <div class="ml-auto cart_product_price">
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <a type="button" class="btn btn-secondary">-</a>
-                                    <a type="button" class="btn btn-secondary">1</a>
-                                    <a type="button" class="btn btn-secondary">+</a>
-                                </div>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <h2>$232</h2>
-                            </div>
-                        
-                        </div>
-
-                        <div class="cart_itemss">
-                            <div class="cart_product_img">
-                                <img src="img/product-accessory2-300x300.jpeg" alt="">
-                            </div>
-                            <div class="cart_product_details">
-                                <div class="cart_product_additional_info">
-                                    <h2>Blue denim shirt</h2>
-                                    <p>SHIRT: BLUE</p>
-                                    <p>COLOUR: BLUE</p>
-                                    <p>SIZE: M</p>
-                                </div>
-                                <br>
-                                <a href="#"><i class="fad fa-trash-alt"></i> Remove item</a>
-                            </div>
-                        
-                            <div class="ml-auto cart_product_price">
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <a type="button" class="btn btn-secondary">-</a>
-                                    <a type="button" class="btn btn-secondary">1</a>
-                                    <a type="button" class="btn btn-secondary">+</a>
+                                    <a type="button" onClick="decrese_cart('cart_item_2')" class="btn btn-secondary">-</a>
+                                    <a type="button" id="cart_item_2" class="btn btn-secondary">0</a>
+                                    <a type="button" onClick="increse_cart('cart_item_2')" class="btn btn-secondary">+</a>
                                 </div>
                                 <br>
                                 <br>
@@ -200,9 +175,9 @@
                         
                             <div class="ml-auto cart_product_price">
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <a type="button" class="btn btn-secondary">-</a>
-                                    <a type="button" class="btn btn-secondary">1</a>
-                                    <a type="button" class="btn btn-secondary">+</a>
+                                    <a type="button" onClick="decrese_cart('cart_item_3')" class="btn btn-secondary">-</a>
+                                    <a type="button" id="cart_item_3" class="btn btn-secondary">0</a>
+                                    <a type="button" onClick="increse_cart('cart_item_3')" class="btn btn-secondary">+</a>
                                 </div>
                                 <br>
                                 <br>
@@ -213,6 +188,11 @@
                             </div>
                         
                         </div>
+                        
+
+
+                        
+
                     </div>
                 </div>
 

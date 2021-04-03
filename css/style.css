@@ -160,8 +160,8 @@
 
 
 .product img {
-	width: 265px;
-	height: 265px;
+    width: 253px;
+    height: 265px;
 }
 .product h2 {
 	color: #333;
@@ -1052,4 +1052,93 @@ section.cart {
 .cart_right_box a:hover{
 	background: #1756bb;
 	color: white;
+}
+
+
+
+/* ============= CHECKOUT PAGE  ============= */
+section.checkoutpage {
+    padding: 81px 0px;
+}
+
+
+.checkout_left_box {
+    border: 2px solid #dad8d8;
+    padding: 52px 39px;
+}
+
+.checkout_left_box h2{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+}
+
+.checkout_right_box {
+    border: 2px solid #dacccc;
+    padding: 31px;
+}
+
+
+.checkout_total_pice {
+    background: #efefef7a;
+    padding: 18px;
+}
+
+.checkout_pay_heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cec5c5;
+}
+
+.checkout_pay_heading h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.checkout_item_options {
+	display: flex;
+    justify-content: space-between;
+	padding: 15px 0px;
+    border-bottom: 1px solid #cec5c5;
+}
+
+.checkout_item_options:last-child{
+	border-bottom: none;
+}
+
+.checkout_item_options h2 {
+	font-size: 14px;
+    font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.checkout_payment_method {
+    background: #ece9e985;
+    padding: 18px;
+    margin-top: 14px;
+}
+
+.checkout_payment_number {
+    margin-top: 16px;
+}
+
+.checkout_right_box a {
+    background: black;
+    padding: 13px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 16px;
+	border: none;
+    border-radius: 0px;
+}
+
+.checkout_right_box a:hover{
+	border: 2px solid black;
+	color: black;
+	background: white;
 }
