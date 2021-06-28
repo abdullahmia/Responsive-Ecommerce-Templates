@@ -1,4 +1,4 @@
-## Live Demo:- https://darknoob1971.github.io/Responsive-Ecommerce-Templates/
+## Live Demo:- https://abdullahmia.github.io/Responsive-Ecommerce-Templates/
 
 
 ## Screenshots:-
