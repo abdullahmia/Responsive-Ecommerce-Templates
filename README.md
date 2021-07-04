@@ -1,5 +1,3 @@
-## Live Demo:- https://abdullahmia.github.io/Responsive-Ecommerce-Templates/
-
 
 ## Screenshots:-
 
